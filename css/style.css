@@ -1,0 +1,72 @@
+body {
+  background-color: lightblue;
+  counter-reset: urutan;
+}
+
+img {
+  display: flow-root;
+  margin: auto;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px 1px white;
+}
+
+#container {
+  position: relative;
+  width: 1000px;
+  min-height: 500px;
+  margin: 120px auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.shake {
+  animation: tada 1s;
+}
+
+#winner {
+  text-align: center;
+  width: 100px;
+  position: absolute;
+  top: 70px;
+}
+
+#winner li {
+  font-size: 40px;
+  line-height: 1.4em;
+}
+
+.button {
+  position: absolute;
+  left: 50%;
+  margin-left: -80px;
+  top: 150px;
+  vertical-align: top;
+  width: 160px;
+  height: 60px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: coral;
+  border: 0;
+  border-bottom: 2px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px black;
+  box-shadow: inset 0 -2px black;
+}
+
+footer {
+  background-color: lightskyblue;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
